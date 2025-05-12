@@ -40,7 +40,7 @@ function Header() {
           <Link to="/fitness" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Fitness</Link>
           <Link to="/beauty-fashion" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Beauty & Fashion</Link>
           <Link to="/cooking" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Cooking</Link>
-          <Link to="/business" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Life style</Link>
+          <Link to="/Life style" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Life style</Link>
           <Link to="/travel" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Travel</Link>
           <Link to="/tech" className="hover:text-gray-200 px-3 py-2 rounded-md hover:bg-orange-700 transition">Tech</Link>
         </nav>
@@ -54,7 +54,7 @@ function Header() {
             <Link to="/fitness" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Fitness</Link>
             <Link to="/beauty-fashion" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Beauty & Fashion</Link>
             <Link to="/cooking" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Cooking</Link>
-            <Link to="/business" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Life Style</Link>
+            <Link to="/Life style" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Life style</Link>
             <Link to="/travel" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Travel</Link>
             <Link to="/tech" className="block px-3 py-2 rounded-md hover:bg-orange-700 transition" onClick={toggleMenu}>Tech</Link>
           </div>

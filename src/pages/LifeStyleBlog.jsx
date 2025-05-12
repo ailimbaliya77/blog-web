@@ -1,4 +1,3 @@
-import React from 'react'
 import BlogPost from '../components/BlogPost'
 import img1 from '../assets/balanmcing.png'
 import img2 from '../assets/self care.jpg'
@@ -10,7 +9,7 @@ function LifeStyleBlog() {
                 id: 1,
                 title: "Home Workouts: Staying Fit Without a Gym",
                 excerpt: "Starting your fitness journey can be overwhelming. Here are some tips to start doing workouts at your Home",
-                image: {img1},
+                image: img1,
                 date: "april 25, 2025",
                 author: "alex johnson",
                 category: "Fitness"
@@ -19,7 +18,7 @@ function LifeStyleBlog() {
                 id: 2,
                 title: "Beauty routines for different skin types",
                 excerpt: "Discover what suits on your skin according to your skin types",
-                image: {img2},
+                image: img2,
                 date: "april 22, 2025",
                 author: "Emma whilson",
                 category: "Beauty & Fashion"

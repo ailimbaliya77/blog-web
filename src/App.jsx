@@ -18,7 +18,7 @@ function App() {
         <Route path="/fitness" element={<FitnessBLog />} />
         <Route path="/beauty-fashion" element={<BeautyFashionBlog />} />
         <Route path="/Cooking" element={<CookingBlog />} />
-        <Route path="/Life Style" element={<LifeStyleBlog />} />
+        <Route path="/Life style" element={<LifeStyleBlog />} />
         <Route path="/travel" element={<TravellBlog />} />
         <Route path="/Tech" element={<TechBlog />} />
       </Routes>

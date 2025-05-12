@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function BlogPost( {title, excerpt, image, date, author, category, comments = []}) {
+function BlogPost( {title, excerpt, image, date, author, category, comments = [], }) {
 
   const [newComment, setNewComment] = useState('');
   const [commentAuthor, setCommentAuthor] = useState('');
@@ -33,6 +33,13 @@ function BlogPost( {title, excerpt, image, date, author, category, comments = []
         <p className="text-gray-600 mb-4">{excerpt}</p>
         <div className="flex items-center">
           <span className="text-bold justify-between items-center text-orange-500">By {author}</span>
+          <span className="text-bold justify-between items-center text-orange-500"></span>
+          <button 
+            className="px-4 py-2 bg-orange-500 text-white rounded hover:bg-orange-600 transition ml-auto"
+          >
+            Read more
+          </button>
+          
         </div>
 {/* Comment Section */}
 <div className="mt-8 border-t pt-6">
